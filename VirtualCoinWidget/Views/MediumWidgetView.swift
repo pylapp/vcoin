@@ -57,6 +57,7 @@ struct MediumWidgetView: View {
             }
         }
         .padding()
+        .widgetBackground(Color.black)
     }
 }
 

@@ -18,5 +18,16 @@ struct VirtualCoinWidget: Widget {
         .configurationDisplayName("vCoin")
         .description("widget.show-prices")
         .supportedFamilies([.systemSmall, .systemMedium, .systemLarge])
+        .disableContentMarginsIfNeeded()
+    }
+}
+
+extension WidgetConfiguration {
+    func disableContentMarginsIfNeeded() -> some WidgetConfiguration {
+        if #available(iOSApplicationExtension 15.0, *) {
+            return self.contentMarginsDisabled()
+        } else {
+            return self
+        }
     }
 }

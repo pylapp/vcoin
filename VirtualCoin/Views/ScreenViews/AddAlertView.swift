@@ -23,7 +23,7 @@ struct AddAlertView: View {
                 leading: Button(action: {
                     presentationMode.wrappedValue.dismiss()
                 }) {
-                    Text("sahred.cancel").bold()
+                    Text("shared.cancel").bold()
                 },
                 trailing: Button(action: {
                     self.saveSettings()

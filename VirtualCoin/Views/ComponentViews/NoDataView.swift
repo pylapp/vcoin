@@ -8,18 +8,18 @@
 import SwiftUI
 
 struct NoDataView: View {
-    var title: String
-    var subtitle: String
+    var title: LocalizedStringKey
+    var subtitle: LocalizedStringKey
     var action: (() -> Void)?
 
     @State var opacity = 0.0
     
-    public init(title: String, subtitle: String) {
+    public init(title: LocalizedStringKey, subtitle: LocalizedStringKey) {
         self.title = title
         self.subtitle = subtitle
     }
     
-    public init(title: String, subtitle: String, action: @escaping () -> Void) {
+    public init(title: LocalizedStringKey, subtitle: LocalizedStringKey, action: @escaping () -> Void) {
         self.title = title
         self.subtitle = subtitle
         self.action = action

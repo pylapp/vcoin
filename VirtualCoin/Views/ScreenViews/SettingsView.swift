@@ -67,7 +67,7 @@ struct SettingsView: View {
                     HStack {
                         Text("settings.section.version")
                         Spacer()
-                        Text(Bundle.main.appVersionNumber + " (\(Bundle.main.buildVersionNumber)")
+                        Text(Bundle.main.appVersionNumber + " (\(Bundle.main.buildVersionNumber))")
                     }
                 }
             }

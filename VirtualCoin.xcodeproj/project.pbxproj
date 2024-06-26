@@ -10,6 +10,7 @@
 		518FD10F2C2C526C00153D20 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 518FD10E2C2C526C00153D20 /* Localizable.xcstrings */; };
 		518FD1112C2C54A500153D20 /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518FD1102C2C54A500153D20 /* Bundle.swift */; };
 		518FD1142C2C5C8E00153D20 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 518FD1132C2C5C8E00153D20 /* Localizable.xcstrings */; };
+		518FD1162C2C63FE00153D20 /* Views+widgetBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518FD1152C2C63FE00153D20 /* Views+widgetBackground.swift */; };
 		F8038E13262F0C6100E434B3 /* CoinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8038E12262F0C6100E434B3 /* CoinView.swift */; };
 		F8042595266FB13D00E3FAE1 /* DataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8042594266FB13D00E3FAE1 /* DataFetcher.swift */; };
 		F814B0F12672896800C2DF11 /* ChartVisualType+ChartColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = F814B0F02672896800C2DF11 /* ChartVisualType+ChartColors.swift */; };
@@ -221,6 +222,7 @@
 		518FD10E2C2C526C00153D20 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		518FD1102C2C54A500153D20 /* Bundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bundle.swift; sourceTree = "<group>"; };
 		518FD1132C2C5C8E00153D20 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		518FD1152C2C63FE00153D20 /* Views+widgetBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Views+widgetBackground.swift"; sourceTree = "<group>"; };
 		F8038E12262F0C6100E434B3 /* CoinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinView.swift; sourceTree = "<group>"; };
 		F8042594266FB13D00E3FAE1 /* DataFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataFetcher.swift; sourceTree = "<group>"; };
 		F814B0F02672896800C2DF11 /* ChartVisualType+ChartColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ChartVisualType+ChartColors.swift"; sourceTree = "<group>"; };
@@ -430,6 +432,7 @@
 			children = (
 				F814B0F02672896800C2DF11 /* ChartVisualType+ChartColors.swift */,
 				F814B0F326728DBF00C2DF11 /* CurrentValueLineType+ChartColors.swift */,
+				518FD1152C2C63FE00153D20 /* Views+widgetBackground.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -1149,6 +1152,7 @@
 				F85DDBF5266E6DE9006157B4 /* MediumWidgetView.swift in Sources */,
 				F89F5F4D266D0F6100B0E2F2 /* CoinIdMappingModel.xcmappingmodel in Sources */,
 				F89F5F4E266D0F6100B0E2F2 /* vcoin.xcdatamodeld in Sources */,
+				518FD1162C2C63FE00153D20 /* Views+widgetBackground.swift in Sources */,
 				F89F5F45266D0F5400B0E2F2 /* Alert+CoreDataClass.swift in Sources */,
 				F89F5F46266D0F5400B0E2F2 /* Alert+CoreDataProperties.swift in Sources */,
 				F89F5F47266D0F5400B0E2F2 /* ExchangeItem+CoreDataClass.swift in Sources */,

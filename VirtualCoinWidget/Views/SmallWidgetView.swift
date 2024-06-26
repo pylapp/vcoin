@@ -44,6 +44,7 @@ struct SmallWidgetView: View {
             }
         }
         .padding()
+        .widgetBackground(Color.black)
     }
 }
 

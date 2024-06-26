@@ -1,6 +1,28 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
+    " (%@)" : {
+
+    },
+    "?" : {
+
+    },
+    "(%@)" : {
+
+    },
+    "%@" : {
+
+    },
+    "%@ / %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ / %2$@"
+          }
+        }
+      }
+    },
     "alert.alert" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -44,6 +66,9 @@
           }
         }
       }
+    },
+    "Bad URL to coincap.io API." : {
+
     },
     "charts.time.range.day" : {
       "extractionState" : "manual",
@@ -187,6 +212,9 @@
           }
         }
       }
+    },
+    "Not recognized currency symbol." : {
+
     },
     "settings.section.github-issues" : {
       "extractionState" : "manual",
