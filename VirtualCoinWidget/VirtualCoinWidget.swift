@@ -16,7 +16,7 @@ struct VirtualCoinWidget: Widget {
             VirtualCoinWidgetEntryView(entry: entry)
         }
         .configurationDisplayName("vCoin")
-        .description("Shows coin prices")
+        .description("widget.show-prices")
         .supportedFamilies([.systemSmall, .systemMedium, .systemLarge])
     }
 }

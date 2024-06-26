@@ -18,7 +18,7 @@ struct VirtualCoinWidgetEntryView : View {
         case .systemSmall: SmallWidgetView(viewModels: entry.viewModels)
         case .systemMedium: MediumWidgetView(viewModels: entry.viewModels)
         case .systemLarge: LargeWidgetView(viewModels: entry.viewModels)
-        default: Text("Define favourites")
+        default: Text("widget.entry.define-favourites")
         }
     }
 }
