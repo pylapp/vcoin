@@ -15,11 +15,11 @@ struct MarketsView: View {
             List(markets) { market in
                 MarketRowView(market: market)
             }
-            .navigationBarTitle(Text("Markets"), displayMode: .inline)
+            .navigationBarTitle(Text("markets.markets"), displayMode: .inline)
             .navigationBarItems(trailing: Button(action: {
                 presentationMode.wrappedValue.dismiss()
             }) {
-                Text("Done").bold()
+                Text("shared.done").bold()
             })
         }
         .listStyle(PlainListStyle())

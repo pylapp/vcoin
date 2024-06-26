@@ -15,7 +15,7 @@ struct FavouritesView: View {
     
     var body: some View {
         self.mainBody()
-            .navigationTitle("Favourites")
+            .navigationTitle("shared.favourites")
             .toolbar {
                 ToolbarItem(placement: .navigationBarLeading) {
                     Button(action: {
@@ -55,7 +55,7 @@ struct FavouritesView: View {
                 }
                 .listStyle(PlainListStyle())
             } else {
-                NoDataView(title: "No Favourites", subtitle: "Select your favourite coins")
+                NoDataView(title: "favourites.no-data", subtitle: "favourites.add")
             }
         case .error(let error):
             ErrorView(error: error) {

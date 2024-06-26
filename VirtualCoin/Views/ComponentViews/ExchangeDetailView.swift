@@ -23,17 +23,17 @@ struct ExchangeDetailView: View {
     
     var body: some View {
         List {
-            Section(header: Text("VALUES")) {
+            Section(header: Text("shared.values")) {
                 HStack {
-                    Text("Amount")
-                    NumericTextField("Amount",
+                    Text("shared.amount")
+                    NumericTextField("shared.amount",
                                      number: $amount,
                                      isDecimalAllowed: true,
                                      numberFormatter: NumberFormatter.amountFormatter)
                         .multilineTextAlignment(.trailing)
                 }
                 
-                Picker(selection: $selectedCoin, label: Text("Coin")) {
+                Picker(selection: $selectedCoin, label: Text("shared.currency.cryptocurrency")) {
                     ForEach(applicationStateService.coins, id: \.self) { coin in
                         HStack {
                             Text(coin.name)
@@ -45,7 +45,7 @@ struct ExchangeDetailView: View {
                     }
                 }
                 
-                Picker(selection: $selectedCurrency, label: Text("Currency")) {
+                Picker(selection: $selectedCurrency, label: Text("shared.currency.fiat")) {
                     ForEach(Currencies.allCurrenciesList, id: \.self) { currency in
                         HStack {
                             Text(currency.name)

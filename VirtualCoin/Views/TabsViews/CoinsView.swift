@@ -19,7 +19,7 @@ struct CoinsView: View {
     
     var body: some View {
         self.mainBody()
-            .navigationTitle("All currencies")
+            .navigationTitle("shared.all-currencies")
             .toolbar {
                 ToolbarItem(placement: .navigationBarLeading) {
                     Button(action: {
@@ -58,7 +58,7 @@ struct CoinsView: View {
                 .add(self.searchBar)
                 .listStyle(PlainListStyle())
             } else {
-                NoDataView(title: "No Coins", subtitle: "Coins has not been downloaded")
+                NoDataView(title: "coins.no-data.title", subtitle: "coins.no-data.subtitle")
             }
         case .error(let error):
             ErrorView(error: error) {

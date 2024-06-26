@@ -31,18 +31,18 @@ struct EditAlertView: View {
     var body: some View {
         NavigationView {
             AlertDetailView(price: self.$price, isPriceLower: $isPriceLower, currency: self.$selectedCurrency, coin: self.$selectedCoin)
-            .navigationBarTitle(Text("Alert"), displayMode: .inline)
+            .navigationBarTitle(Text("alert.alert"), displayMode: .inline)
             .navigationBarItems(
                 leading: Button(action: {
                     presentationMode.wrappedValue.dismiss()
                 }) {
-                    Text("Cancel").bold()
+                    Text("shared.cancel").bold()
                 },
                 trailing: Button(action: {
                     self.saveSettings()
                     presentationMode.wrappedValue.dismiss()
                 }) {
-                    Text("Done").bold()
+                    Text("shared.done").bold()
                 })
         }
     }

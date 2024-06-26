@@ -43,11 +43,11 @@ struct CoinView: View {
 
             VStack {
                 Picker("", selection: $selectedTab) {
-                    Text(ChartTimeRange.hour.rawValue).tag(ChartTimeRange.hour)
-                    Text(ChartTimeRange.day.rawValue).tag(ChartTimeRange.day)
-                    Text(ChartTimeRange.week.rawValue).tag(ChartTimeRange.week)
-                    Text(ChartTimeRange.month.rawValue).tag(ChartTimeRange.month)
-                    Text(ChartTimeRange.year.rawValue).tag(ChartTimeRange.year)
+                    Text("charts.time.range.hour").tag(ChartTimeRange.hour)
+                    Text("charts.time.range.day").tag(ChartTimeRange.day)
+                    Text("charts.time.range.week").tag(ChartTimeRange.week)
+                    Text("charts.time.range.month").tag(ChartTimeRange.month)
+                    Text("charts.time.range.year").tag(ChartTimeRange.year)
                 }
                 .pickerStyle(SegmentedPickerStyle())
                 .padding()

@@ -27,7 +27,7 @@ struct InitialsPlaceholder_Previews: PreviewProvider {
         Group {
             InitialsPlaceholder(text: "Bitcoin")
                 .preferredColorScheme(.dark)
-            InitialsPlaceholder(text: "DegeCoin")
+            InitialsPlaceholder(text: "DogeCoin")
                 .preferredColorScheme(.light)
         }
         .previewLayout(.fixed(width: 32, height: 32))

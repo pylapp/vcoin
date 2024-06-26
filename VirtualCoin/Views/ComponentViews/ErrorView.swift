@@ -20,7 +20,7 @@ struct ErrorView: View {
             Text("\(error.localizedDescription)")
                 .multilineTextAlignment(.center)
             if let action = refreshAction {
-                Button("Refresh", action: action)
+                Button("error.refresh", action: action)
                     .padding(.top, 10)
             }
         }

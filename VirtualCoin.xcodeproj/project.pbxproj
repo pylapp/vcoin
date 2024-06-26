@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		518FD10F2C2C526C00153D20 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 518FD10E2C2C526C00153D20 /* Localizable.xcstrings */; };
+		518FD1112C2C54A500153D20 /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518FD1102C2C54A500153D20 /* Bundle.swift */; };
 		F8038E13262F0C6100E434B3 /* CoinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8038E12262F0C6100E434B3 /* CoinView.swift */; };
 		F8042595266FB13D00E3FAE1 /* DataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8042594266FB13D00E3FAE1 /* DataFetcher.swift */; };
 		F814B0F12672896800C2DF11 /* ChartVisualType+ChartColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = F814B0F02672896800C2DF11 /* ChartVisualType+ChartColors.swift */; };
@@ -215,6 +217,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		518FD10E2C2C526C00153D20 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		518FD1102C2C54A500153D20 /* Bundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bundle.swift; sourceTree = "<group>"; };
 		F8038E12262F0C6100E434B3 /* CoinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinView.swift; sourceTree = "<group>"; };
 		F8042594266FB13D00E3FAE1 /* DataFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataFetcher.swift; sourceTree = "<group>"; };
 		F814B0F02672896800C2DF11 /* ChartVisualType+ChartColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ChartVisualType+ChartColors.swift"; sourceTree = "<group>"; };
@@ -391,6 +395,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		518FD10D2C2C524600153D20 /* Localizables */ = {
+			isa = PBXGroup;
+			children = (
+				518FD10E2C2C526C00153D20 /* Localizable.xcstrings */,
+			);
+			path = Localizables;
+			sourceTree = "<group>";
+		};
 		F8038E11262F0B8A00E434B3 /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -598,6 +610,7 @@
 		F8916838262B38AD007335D7 /* VirtualCoin */ = {
 			isa = PBXGroup;
 			children = (
+				518FD10D2C2C524600153D20 /* Localizables */,
 				F82C6F82267F9A2800FF4FAE /* Cache */,
 				F85C7983266A193A00BCBE8A /* Notifications */,
 				F8CD6C6E2653F8850065EE8F /* Services */,
@@ -747,6 +760,7 @@
 				F8571D1E262C1B0000C882C5 /* Color.swift */,
 				F8189E7F26558A3700563F5A /* DispatchQueue.swift */,
 				F8D5CF742678F56F001361EA /* View.swift */,
+				518FD1102C2C54A500153D20 /* Bundle.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -968,6 +982,7 @@
 			files = (
 				F8916841262B38AE007335D7 /* Preview Assets.xcassets in Resources */,
 				F891683E262B38AE007335D7 /* Assets.xcassets in Resources */,
+				518FD10F2C2C526C00153D20 /* Localizable.xcstrings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1081,6 +1096,7 @@
 				F8F6856126403DF4004F1D83 /* SettingsView.swift in Sources */,
 				F8D5CF6C2678CFB3001361EA /* VirtualCoinWidget.intentdefinition in Sources */,
 				F8D9448D265172ED004ACBF3 /* Setting.swift in Sources */,
+				518FD1112C2C54A500153D20 /* Bundle.swift in Sources */,
 				F86620762647132E00577013 /* AddExchangeView.swift in Sources */,
 				F891683A262B38AD007335D7 /* VirtualCoinApp.swift in Sources */,
 				F85C798A266A26A200BCBE8A /* CoinIdMappingPolicy.swift in Sources */,

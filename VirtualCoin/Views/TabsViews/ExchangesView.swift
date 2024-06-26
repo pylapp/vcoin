@@ -21,7 +21,7 @@ struct ExchangesView: View {
     
     var body: some View {
         self.mainBody()
-        .navigationTitle("Exchanges")
+        .navigationTitle("shared.exchanges")
         .toolbar {
             ToolbarItem(placement: .navigationBarLeading) {
                 Button(action: {
@@ -76,7 +76,7 @@ struct ExchangesView: View {
             }
             .listStyle(PlainListStyle())
         } else {
-            NoDataView(title: "No Exchanges", subtitle: "Add exchange") {
+            NoDataView(title: "exchanges.no-data", subtitle: "exchanges.add") {
                 applicationStateService.selectedExchangeViewModel = nil
                 self.showingExchangeDetailsView = true
             }

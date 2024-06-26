@@ -18,18 +18,18 @@ struct AddExchangeView: View {
     var body: some View {
         NavigationView {
             ExchangeDetailView(amount: self.$amount, currency: self.$selectedCurrency, coin: self.$selectedCoin)
-            .navigationBarTitle(Text("Exchange"), displayMode: .inline)
+            .navigationBarTitle(Text("shared.exchange"), displayMode: .inline)
             .navigationBarItems(
                 leading: Button(action: {
                     presentationMode.wrappedValue.dismiss()
                 }) {
-                    Text("Cancel").bold()
+                    Text("shared.cancel").bold()
                 },
                 trailing: Button(action: {
                     self.saveSettings()
                     presentationMode.wrappedValue.dismiss()
                 }) {
-                    Text("Done").bold()
+                    Text("shared.done").bold()
                 })
         }
     }

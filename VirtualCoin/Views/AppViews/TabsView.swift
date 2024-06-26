@@ -18,7 +18,7 @@ struct TabsView: View {
             }
             .tabItem {
                 Image(systemName: "star.fill")
-                Text("Favourites")
+                Text("shared.favourites")
             }
 
             // All currencies view.
@@ -27,7 +27,7 @@ struct TabsView: View {
             }
             .tabItem {
                 Image(systemName: "bitcoinsign.circle.fill")
-                Text("All currencies")
+                Text("shared.all-currencies")
             }
             
             // Exchanges view.
@@ -36,7 +36,7 @@ struct TabsView: View {
             }
             .tabItem {
                 Image(systemName: "arrow.triangle.2.circlepath.circle.fill")
-                Text("Exchanges")
+                Text("shared.exchanges")
             }
             
             // Alerts view.
@@ -45,7 +45,7 @@ struct TabsView: View {
             }
             .tabItem {
                 Image(systemName: "bell.fill")
-                Text("Alerts")
+                Text("shared.alerts")
             }
         }
     }

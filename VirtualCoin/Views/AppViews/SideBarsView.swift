@@ -19,7 +19,7 @@ struct SideBarsView: View {
                 tag: SideBarNavigationItem.favourites,
                 selection: $selectedItem
             ) {
-                Label("Favourites", systemImage: "star.fill")
+                Label("shared.favourites", systemImage: "star.fill")
             }
             
             // All currencies view.
@@ -28,7 +28,7 @@ struct SideBarsView: View {
                 tag: SideBarNavigationItem.currencies,
                 selection: $selectedItem
             ) {
-                Label("All currencies", systemImage: "bitcoinsign.circle.fill")
+                Label("shared.all-currencies", systemImage: "bitcoinsign.circle.fill")
             }
 
             // Exchanges view.
@@ -37,7 +37,7 @@ struct SideBarsView: View {
                 tag: SideBarNavigationItem.exchanges,
                 selection: $selectedItem
             ) {
-                Label("Exchanges", systemImage: "arrow.triangle.2.circlepath.circle.fill")
+                Label("shared.exchanges", systemImage: "arrow.triangle.2.circlepath.circle.fill")
             }
             
             // Alerts view.
@@ -46,7 +46,7 @@ struct SideBarsView: View {
                 tag: SideBarNavigationItem.alerts,
                 selection: $selectedItem
             ) {
-                Label("Alerts", systemImage: "bell.fill")
+                Label("shared.alerts", systemImage: "bell.fill")
             }
             
         }

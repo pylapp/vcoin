@@ -18,18 +18,18 @@ struct AddAlertView: View {
     var body: some View {
         NavigationView {
             AlertDetailView(price: $price, isPriceLower: $isPriceLower, currency: $selectedCurrency, coin: $selectedCoin)
-            .navigationBarTitle(Text("Exchange"), displayMode: .inline)
+            .navigationBarTitle(Text("shared.exchange"), displayMode: .inline)
             .navigationBarItems(
                 leading: Button(action: {
                     presentationMode.wrappedValue.dismiss()
                 }) {
-                    Text("Cancel").bold()
+                    Text("sahred.cancel").bold()
                 },
                 trailing: Button(action: {
                     self.saveSettings()
                     presentationMode.wrappedValue.dismiss()
                 }) {
-                    Text("Done").bold()
+                    Text("shared.done").bold()
                 })
         }
     }

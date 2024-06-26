@@ -13,7 +13,7 @@ struct ThirdPartyView: View {
                 Link("https://coincap.io",
                      destination: URL(string: "https://coincap.io")!)
                 Spacer()
-                Text("API for cryptocurrency pricing.")
+                Text("third-parties.api")
                     .font(.footnote)
             }
             
@@ -21,7 +21,7 @@ struct ThirdPartyView: View {
                 Link("https://github.com/pichukov/LightChart",
                      destination: URL(string: "https://github.com/pichukov/LightChart")!)
                 Spacer()
-                Text("Lightweight SwiftUI package with line charts implementation.")
+                Text("third-parties.lightchart")
                     .font(.footnote)
             }
             
@@ -29,11 +29,11 @@ struct ThirdPartyView: View {
                 Link("https://github.com/dmytro-anokhin/url-image",
                      destination: URL(string: "https://github.com/dmytro-anokhin/url-image")!)
                 Spacer()
-                Text("SwiftUI view that displays an image downloaded from provided URL. ")
+                Text("third-parties.url-image")
                     .font(.footnote)
             }
         }
-        .navigationBarTitle(Text("Third party"), displayMode: .inline)
+        .navigationBarTitle(Text("third-parties.third-party"), displayMode: .inline)
     }
 }
 

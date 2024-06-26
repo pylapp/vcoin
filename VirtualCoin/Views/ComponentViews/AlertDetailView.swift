@@ -25,23 +25,23 @@ struct AlertDetailView: View {
     
     var body: some View {
         List {
-            Section(header: Text("VALUES")) {
+            Section(header: Text("shared.values")) {
                 HStack {
-                    Text("Notify when")
+                    Text("alert.detail.notify")
                     Picker("", selection: $isPriceLower) {
-                        Text("lower than").tag(true)
-                        Text("higher than").tag(false)
+                        Text("shared.lowerThan").textCase(.lowercase).tag(true)
+                        Text("shared.greaterThan").textCase(.lowercase).tag(false)
                     }
                     .pickerStyle(SegmentedPickerStyle())
                 }
                 
                 HStack {
-                    Text("Price")
-                    NumericTextField("Price", number: $price, isDecimalAllowed: true)
+                    Text("shared.price")
+                    NumericTextField("shared.price", number: $price, isDecimalAllowed: true)
                         .multilineTextAlignment(.trailing)
                 }
                 
-                Picker(selection: $selectedCurrency, label: Text("Currency")) {
+                Picker(selection: $selectedCurrency, label: Text("shared.currency.fiat")) {
                     ForEach(Currencies.allCurrenciesList, id: \.self) { currency in
                         HStack {
                             Text(currency.name)
@@ -53,7 +53,7 @@ struct AlertDetailView: View {
                     }
                 }
                 
-                Picker(selection: $selectedCoin, label: Text("Coin")) {
+                Picker(selection: $selectedCoin, label: Text("shared.currency.cryptocurrency")) {
                     ForEach(applicationStateService.coins, id: \.self) { coin in
                         HStack {
                             Text(coin.name)

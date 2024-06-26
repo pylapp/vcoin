@@ -20,9 +20,9 @@ struct SettingsView: View {
         NavigationView {
             List {
                 
-                Section(header: Text("MAIN")) {
+                Section(header: Text("settings.section.main")) {
                     
-                    Picker(selection: $selectedCurrency, label: Text("Currency")) {
+                    Picker(selection: $selectedCurrency, label: Text("shared.currency.fiat")) {
                         ForEach(Currencies.allCurrenciesList, id: \.self) { currency in
                             HStack {
                                 Text(currency.name)
@@ -35,27 +35,27 @@ struct SettingsView: View {
                     }
                 }
                 
-                Section(header: Text("OTHER")) {
+                Section(header: Text("settings.section.other")) {
                     NavigationLink(destination: ThirdPartyView()) {
-                        Text("Third party")
+                        Text("settings.section.third-parties")
                     }
 
                     HStack {
-                        Text("Source code")
+                        Text("settings.section.source-code")
                         Spacer()
                         Link("GitHub",
                               destination: URL(string: "https://github.com/mczachurski/vcoin")!)
                     }
 
                     HStack {
-                        Text("Report a bug")
+                        Text("settings.section.report-bug")
                         Spacer()
-                        Link("Issues on Github",
+                        Link("settings.section.github-issues",
                               destination: URL(string: "https://github.com/mczachurski/vcoin/issues")!)
                     }
                     
                     HStack {
-                        Text("Follow me on Twitter")
+                        Text("settings.section.x-follow")
                         Spacer()
                         Link("@mczachurski",
                               destination: URL(string: "https://twitter.com/@mczachurski")!)
@@ -65,19 +65,19 @@ struct SettingsView: View {
                 
                 Section {
                     HStack {
-                        Text("Version")
+                        Text("settings.section.version")
                         Spacer()
-                        Text("2.0.0")
+                        Text(Bundle.main.appVersionNumber + " (\(Bundle.main.buildVersionNumber)")
                     }
                 }
             }
             .listStyle(GroupedListStyle())
-            .navigationBarTitle(Text("Settings"), displayMode: .inline)
+            .navigationBarTitle(Text("settings.section.settings"), displayMode: .inline)
             .navigationBarItems(trailing: Button(action: {
                 self.saveSettings()
                 presentationMode.wrappedValue.dismiss()
             }) {
-                Text("Done").bold()
+                Text("shared.done").bold()
             })
         }.onAppear {
             self.loadDefaultCurrency()

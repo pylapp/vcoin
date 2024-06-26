@@ -22,7 +22,7 @@ struct AlertsView: View {
     
     var body: some View {
         self.mainBody()
-        .navigationTitle("Alerts")
+        .navigationTitle("shared.alerts")
         .toolbar {
             ToolbarItem(placement: .navigationBarLeading) {
                 Button(action: {
@@ -79,7 +79,7 @@ struct AlertsView: View {
             }
             .listStyle(PlainListStyle())
         } else {
-            NoDataView(title: "No Alerts", subtitle: "Add alert") {
+            NoDataView(title: "alerts.no-data", subtitle: "alerts.add") {
                 applicationStateService.selectedAlertViewModel = nil
                 self.showingAlertView = true
             }

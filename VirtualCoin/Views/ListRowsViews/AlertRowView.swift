@@ -24,7 +24,7 @@ struct AlertRowView: View {
                         .font(.subheadline)
                         .foregroundColor(.accentColor)
                     HStack {
-                        Text(alertViewModel.alert.isPriceLower ? "Lower than" : "Greather than")
+                        Text(alertViewModel.alert.isPriceLower ? "shared.lowerThan" : "shared.greaterThan")
                             .foregroundColor(.gray)
                             .font(.subheadline)
                         Text("\(alertViewModel.alert.price.toFormattedPrice(currency: alertViewModel.alert.currency))")
