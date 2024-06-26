@@ -2,7 +2,14 @@
   "sourceLanguage" : "en",
   "strings" : {
     "%@" : {
-
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : ""
+          }
+        }
+      }
     },
     "widget.entry.define-favourites" : {
       "extractionState" : "manual",
@@ -11,6 +18,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Define favourites"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Définir les favoris"
           }
         }
       }
@@ -22,6 +35,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Shows coin prices"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Affiche les valeurs des cryptomonnaies"
           }
         }
       }

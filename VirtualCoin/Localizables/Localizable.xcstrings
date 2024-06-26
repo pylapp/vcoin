@@ -5,7 +5,14 @@
 
     },
     "?" : {
-
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "?"
+          }
+        }
+      }
     },
     "(%@)" : {
 
@@ -31,6 +38,12 @@
             "state" : "translated",
             "value" : "Alert"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alerte"
+          }
         }
       }
     },
@@ -41,6 +54,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Notify when"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notifier quand"
           }
         }
       }
@@ -53,6 +72,12 @@
             "state" : "translated",
             "value" : "Add alert"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajouter une alerte"
+          }
         }
       }
     },
@@ -64,11 +89,24 @@
             "state" : "translated",
             "value" : "No Alerts"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pas d'alertes"
+          }
         }
       }
     },
     "Bad URL to coincap.io API." : {
-
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mauvaise URL pour l'API coincap.io."
+          }
+        }
+      }
     },
     "charts.time.range.day" : {
       "extractionState" : "manual",
@@ -77,6 +115,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Day"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jour"
           }
         }
       }
@@ -89,6 +133,12 @@
             "state" : "translated",
             "value" : "Hour"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Heure"
+          }
         }
       }
     },
@@ -99,6 +149,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Month"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mois"
           }
         }
       }
@@ -111,6 +167,12 @@
             "state" : "translated",
             "value" : "Week"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Semaine"
+          }
         }
       }
     },
@@ -121,6 +183,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Year"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Année"
           }
         }
       }
@@ -133,6 +201,12 @@
             "state" : "translated",
             "value" : "Coins has not been downloaded"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Les cryptomonnaies n'ont pas été téléchargées"
+          }
         }
       }
     },
@@ -143,6 +217,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "No Coins"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pas de cryptomonnaies"
           }
         }
       }
@@ -155,6 +235,12 @@
             "state" : "translated",
             "value" : "Refresh"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rafraîchir"
+          }
         }
       }
     },
@@ -165,6 +251,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Add exchange"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajouter une conversion"
           }
         }
       }
@@ -177,6 +269,12 @@
             "state" : "translated",
             "value" : "No Exchanges"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pas de conversions"
+          }
         }
       }
     },
@@ -187,6 +285,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Select your favourite coins"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sélectionnez vos cryptomonnaies préférées"
           }
         }
       }
@@ -199,6 +303,12 @@
             "state" : "translated",
             "value" : "No Favourites"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pas de favoris"
+          }
         }
       }
     },
@@ -210,11 +320,24 @@
             "state" : "translated",
             "value" : "Markets"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Marchés"
+          }
         }
       }
     },
     "Not recognized currency symbol." : {
-
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Symbole de cryptomonnaie non reconnu"
+          }
+        }
+      }
     },
     "settings.section.github-issues" : {
       "extractionState" : "manual",
@@ -223,6 +346,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Issues on GitHub"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bogues sur GitHub"
           }
         }
       }
@@ -235,6 +364,12 @@
             "state" : "translated",
             "value" : "MAIN"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "PRINCIPAL"
+          }
         }
       }
     },
@@ -245,6 +380,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "OTHER"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "AUTRE"
           }
         }
       }
@@ -257,6 +398,12 @@
             "state" : "translated",
             "value" : "Report a bug"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rapporter un bogue"
+          }
         }
       }
     },
@@ -267,6 +414,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Settings"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Paramètres"
           }
         }
       }
@@ -279,6 +432,12 @@
             "state" : "translated",
             "value" : "Source code"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Code source"
+          }
         }
       }
     },
@@ -290,6 +449,12 @@
             "state" : "translated",
             "value" : "Third-party components"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Composants tiers"
+          }
         }
       }
     },
@@ -297,6 +462,12 @@
       "extractionState" : "manual",
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Version"
+          }
+        },
+        "fr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Version"
@@ -312,6 +483,12 @@
             "state" : "translated",
             "value" : "Follow me on X (ex Twitter)"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suivez-moi sur X (ex Twitter)"
+          }
         }
       }
     },
@@ -322,6 +499,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Alerts"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alertes"
           }
         }
       }
@@ -334,6 +517,12 @@
             "state" : "translated",
             "value" : "All currencies"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cryptomonnaies"
+          }
         }
       }
     },
@@ -344,6 +533,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Amount"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Somme"
           }
         }
       }
@@ -356,6 +551,12 @@
             "state" : "translated",
             "value" : "Cancel"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Annuler"
+          }
         }
       }
     },
@@ -366,6 +567,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Coin"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cryptomonnaie"
           }
         }
       }
@@ -378,6 +585,12 @@
             "state" : "translated",
             "value" : "Currency"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Devise"
+          }
         }
       }
     },
@@ -388,6 +601,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Done"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Terminé"
           }
         }
       }
@@ -400,6 +619,12 @@
             "state" : "translated",
             "value" : "Exchange"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Conversion"
+          }
         }
       }
     },
@@ -410,6 +635,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Exchanges"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Conversions"
           }
         }
       }
@@ -422,6 +653,12 @@
             "state" : "translated",
             "value" : "Favourites"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Favoris"
+          }
         }
       }
     },
@@ -432,6 +669,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Greater than"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Plus grand que"
           }
         }
       }
@@ -444,6 +687,12 @@
             "state" : "translated",
             "value" : "Lower than"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Plus petit que"
+          }
         }
       }
     },
@@ -454,6 +703,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Price"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prix"
           }
         }
       }
@@ -466,6 +721,12 @@
             "state" : "translated",
             "value" : "VALUES"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VALEURS"
+          }
         }
       }
     },
@@ -476,6 +737,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "API for cryptocurrency pricing."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "API pour les taux et prix des cryptomonnaies."
           }
         }
       }
@@ -488,6 +755,12 @@
             "state" : "translated",
             "value" : "Lightweight SwiftUI package with line charts implementation."
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Package SwiftUI pour implémenter des graphiques"
+          }
         }
       }
     },
@@ -499,6 +772,12 @@
             "state" : "translated",
             "value" : "Third party"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Composants tiers"
+          }
         }
       }
     },
@@ -509,6 +788,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "SwiftUI view that displays an image downloaded from provided URL."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pour afficher avec SwiftUI des images via des URL"
           }
         }
       }
