@@ -38,7 +38,7 @@ struct VirtualCoinApp: App {
 }
 
 class AppDelegate: NSObject, UIApplicationDelegate {
-    let backgroundTaskId = "dev.mczachurski.vcoin.fetch"
+    let backgroundTaskId = "info.pylapp.vcoin.fetch"
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
         self.registerBackgroundFetch()

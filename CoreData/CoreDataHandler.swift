@@ -19,7 +19,7 @@ public class CoreDataHandler {
         if inMemory {
             container.persistentStoreDescriptions.first!.url = URL(fileURLWithPath: "/dev/null")
         } else {
-            guard let url = FileManager.default.containerURL(forSecurityApplicationGroupIdentifier: "group.dev.mczachurski.vcoin") else {
+            guard let url = FileManager.default.containerURL(forSecurityApplicationGroupIdentifier: "group.info.pylapp.vcoin") else {
                 fatalError("Container URL for application cannot be retrieved")
             }
 
