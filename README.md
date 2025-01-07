@@ -1,3 +1,12 @@
+Disclaimer
+==========
+
+( ˶°ㅁ°) !! **This is a fork of [mczachurski/vcoin](https://github.com/mczachurski/vcoin)**
+
+The aim of this project is to submit evolutions.
+This is not the official repository of the app.
+You should not submit bug reports, issues or pull requests to this fork.
+
 # vCoin (Virtual Coin)
 
 **vCoin** is lightweight application for keeping track of cryptocurrency prices.
